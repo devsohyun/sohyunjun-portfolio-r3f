@@ -9,7 +9,7 @@ export default function App()
     return <>
         <Canvas gl={{ antialias: false }} dpr={[1, 1.5]}>
 
-            <ScrollControls damping={4} pages={3}>
+            <ScrollControls damping={4} pages={4}>
                 <Scroll>
                     <Images />
                 </Scroll>
